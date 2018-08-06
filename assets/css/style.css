@@ -1,0 +1,119 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    background: #F5F5F5;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+/* Main Css */
+.section-tittle {
+    margin-bottom: 60px;
+}
+.section-tittle h2 {
+    text-transform:  uppercase;
+    color:  #27CCF5;
+    font-size: 35px;
+}
+
+.section-tittle-sep {
+    position:  relative;
+    background:  #27CCF5;
+    width: 300px;
+    height: 2px;
+    margin: 0 auto 30px;
+}
+
+.section-tittle-sep:after {
+    position:  absolute;
+    width: 85px;
+    height: 5px;
+    background:  #27CCF5;
+    content: "";
+    left:  50%;
+    margin-left: -42px;
+    bottom: -1.5px;
+}
+.single-team-item {
+    background:  #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+.single-team-item img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius:  50%;
+}
+.team-item-des span {
+    color: #27CCF5;
+}
+.team-item-des {
+    font-size: 16px;
+}
+
+.single-team-item h4 {
+    text-transform:  uppercase;
+    color: #27CCF5;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top:  20px;
+    margin-bottom: 0;
+}
+
+.single-team-item h4 span {
+    color:  #333;
+    display:  block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top:  10px;
+}
+
+.team-carousel .owl-nav button.owl-prev,
+.team-carousel .owl-nav button.owl-next {
+    position: absolute;
+    background: #27CCF5;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 40px: 
+    top: 50%;
+}
+.team-carousel .owl-nav button.owl-prev {
+    top: 50%;
+    font-size: 25px;
+    left: -50px;
+}
+.team-carousel .owl-nav button.owl-next {
+    top: 50%;
+    font-size: 25px;
+    right: -50px;
+}
